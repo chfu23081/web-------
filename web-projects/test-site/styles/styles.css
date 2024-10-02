@@ -1,0 +1,25 @@
+@charset "UTF-8";  /* コードの文字化けを防ぐ　*/
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color:  #f90202f2;
+    color:  #432;
+}
+
+
+h1 {
+    background-color:  #ffffff;
+    padding: 10px 10px 10px 20px;
+    border: 1px solid  #fff;
+    margin: 20px 0 10px 0;
+}
+
+h1:before {
+    content: "";
+    padding: 3px 0;
+    border-left: 5px solid  #000000;
+    margin: 0 7px 0 0;
+}
